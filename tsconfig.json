@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@Base/*": ["base/*"],
+      "@Components/*": ["components/*"],
+      "@Reducers/*": ["reducers/*"],
+      "@API/*": ["api/*"],
+      "@Tools/*": ["tools/*"],
+      "@Hooks/*": ["hooks/*"],
+      "@Models/*": ["models/*"],
+      "@CSS/*": ["css/*"],
+      "@Services/*": ["services/*"],
+      "@Providers/*": ["providers/*"],
+      "@Env/*": ["env/*"],
+      "@Langs/*": ["langs/*"]
+    }
+  },
+  "include": [
+    "src",
+  ]
+}

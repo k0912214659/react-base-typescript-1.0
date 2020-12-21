@@ -1,0 +1,6 @@
+enum Global {
+  SET_GLOBAL_INITIALIZE = 'SET_GLOBAL_INITIALIZE',
+  SET_GLOBAL_LOADING = 'SET_GLOBAL_LOADING',
+}
+
+export default Global;

@@ -1,0 +1,5 @@
+/config
+/scripts
+/libs
+/src/services/Scripts/ElementWorkers/*
+/.eslintrc.js
